@@ -161,7 +161,8 @@ def player_numbers(team)
 end
   
 def player_stats(player_name)
-  find_the_player(player_name).map{|player_name,stats| stats.map}
+  find_the_player(player_name)
+  binding.pry
 end
   
 
