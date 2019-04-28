@@ -152,7 +152,7 @@ def team_colors(name)
 end
 
 def team_names(name)
-  find_the_team(name)
+  teams.map{|t| t.}
 end
 
 
