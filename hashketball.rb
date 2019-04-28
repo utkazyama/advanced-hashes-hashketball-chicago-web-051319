@@ -164,6 +164,11 @@ def player_stats(player_name)
   find_the_player(player_name)
 end
   
+  
+def player_biggest_shoe_size
+  players.max_by{|player, stats| stats.fetch(:shoe)}[1]
+end
+  
 def big_shoe_rebounds
   
 
