@@ -160,7 +160,10 @@ def player_numbers(team)
   find_the_team(team)[:players].map{|player_name, stats| stats[:number]}
 end
   
-
+def player_stats(player_name)
+  find_the_player(player_name).map{|player_name,stats| stats.map}
+end
+  
 
 
 
