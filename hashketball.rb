@@ -162,7 +162,6 @@ end
   
 def player_stats(player_name)
   find_the_player(player_name)
-  binding.pry
 end
   
 
