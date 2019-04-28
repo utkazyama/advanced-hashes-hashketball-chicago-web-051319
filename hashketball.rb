@@ -151,11 +151,9 @@ def team_colors(name)
   team.fetch(:colors)
 end
 
-def team_names(name)
+def team_names
   teams.map{|t| t.fetch(:team_name)}
 end
-
-
 
 
 
